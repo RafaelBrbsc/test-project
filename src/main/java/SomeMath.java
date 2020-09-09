@@ -1,10 +1,10 @@
 public class SomeMath {
 
-	public int methodA() {
-		return 1 + 2;
+	public int methodA(int a, int b) {
+		return a + b;
 	}
 
-	public int methodB() {
-		return 2 - 1;
+	public int methodB(int a, int b) {
+		return a - b;
 	}
 }
